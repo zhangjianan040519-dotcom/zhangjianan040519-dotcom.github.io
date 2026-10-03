@@ -440,6 +440,9 @@ svg.fill, svg.fill path { fill: currentColor; stroke: none; }
   gap: 22px;
 }
 
+/* 只有一张卡片时不要拉满整行，否则会显得空 */
+.cards--single { grid-template-columns: minmax(0, 600px); }
+
 .card {
   background: var(--bg-elev);
   border: 1px solid var(--border);
@@ -537,6 +540,9 @@ svg.fill, svg.fill path { fill: currentColor; stroke: none; }
   grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
   gap: 18px;
 }
+
+/* 只有一个联系方式时收窄，避免整行一个巨大卡片 */
+.contact-grid--single { grid-template-columns: minmax(0, 380px); }
 
 .contact-card {
   display: flex; flex-direction: column; gap: 5px;
