@@ -4,24 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<!-- ===================================================================
-     需要改的地方都标了 [改] —— 用编辑器搜索 "[改]" 就能逐个找到。
-     页面文字默认中文；英文版写在 data-en="..." 里，右上角可切换。
-     =================================================================== -->
-
-<title data-zh="[改] 你的名字 | 个人主页" data-en="[改] Your Name | Homepage">[改] 你的名字 | 个人主页</title>
-<meta name="description" content="[改] 一句话介绍你自己：研究方向、所属机构、联系方式。">
-<meta name="author" content="[改] 你的名字">
+<title data-zh="张佳男 | 个人主页" data-en="Zhang Jianan | Homepage">张佳男 | 个人主页</title>
+<meta name="description" content="张佳男的个人主页。研究方向：期权定价。">
+<meta name="author" content="张佳男">
 <meta name="theme-color" content="#2f6feb">
 
-<!-- 社交分享卡片。上线后把 og:url 换成你的真实网址 -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="[改] 你的名字 | 个人主页">
-<meta property="og:description" content="[改] 一句话介绍你自己。">
-<meta property="og:url" content="https://[改-你的GitHub用户名].github.io/">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="张佳男 | 个人主页">
+<meta property="og:description" content="研究方向：期权定价。">
+<meta property="og:url" content="https://zhangjianan040519-dotcom.github.io/">
+<meta name="twitter:card" content="summary">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232f6feb'/><text y='72' x='50' font-size='58' font-family='Georgia,serif' fill='white' text-anchor='middle'>Y</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232f6feb'/><text y='72' x='50' font-size='58' font-family='Georgia,serif' fill='white' text-anchor='middle'>%E5%BC%A0</text></svg>">
 
 <script>
   /* 尽快确定主题并标记 JS 可用：避免刷新时闪白，也保证脚本失效时内容仍可见 */
@@ -45,15 +39,14 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap header-inner">
     <a class="brand" href="#home">
-      <span class="brand-mark" aria-hidden="true">Y</span>
-      <span class="brand-text">[改] 你的名字</span>
+      <span class="brand-mark" aria-hidden="true">张</span>
+      <span class="brand-text">张佳男</span>
     </a>
 
     <nav class="nav" id="nav" aria-label="主导航">
       <a href="#home"     class="nav-link" data-zh="首页" data-en="Home">首页</a>
       <a href="#about"    class="nav-link" data-zh="关于" data-en="About">关于</a>
       <a href="#research" class="nav-link" data-zh="研究" data-en="Research">研究</a>
-      <a href="#pubs"     class="nav-link" data-zh="论文" data-en="Publications">论文</a>
       <a href="#contact"  class="nav-link" data-zh="联系" data-en="Contact">联系</a>
     </nav>
 
@@ -82,51 +75,31 @@
       <div class="hero-text">
         <p class="eyebrow reveal" data-zh="你好，我是" data-en="Hi, I'm">你好，我是</p>
 
-        <h1 class="hero-name reveal">[改] 你的名字</h1>
+        <h1 class="hero-name reveal" data-zh="张佳男" data-en="Zhang Jianan">张佳男</h1>
 
-        <p class="hero-title reveal" data-zh="[改] 你的身份，例如：博士研究生 · 金融学" data-en="[改] Your role, e.g. PhD Student in Finance">
-          [改] 你的身份，例如：博士研究生 · 金融学
+        <p class="hero-title reveal" data-zh="研究方向：期权定价" data-en="Research: Option Pricing">
+          研究方向：期权定价
         </p>
 
-        <p class="hero-affil reveal" data-zh="[改] 你的机构 / 院系" data-en="[改] Your institution / department">
-          [改] 你的机构 / 院系
-        </p>
-
-        <p class="hero-bio reveal" data-zh="[改] 两三句话说清你在做什么、关心什么问题。这是别人最先读到的内容，值得好好写。"
-           data-en="[改] Two or three sentences on what you work on and what questions you care about. This is the first thing visitors read — worth writing carefully.">
-          [改] 两三句话说清你在做什么、关心什么问题。这是别人最先读到的内容，值得好好写。
+        <p class="hero-bio reveal"
+           data-zh="我的研究方向是期权定价。平时爱好唱、跳、rap。欢迎通过 GitHub 与我交流。"
+           data-en="My research is on option pricing. Outside of that: singing, dancing, and rap. Feel free to reach me on GitHub.">
+          我的研究方向是期权定价。平时爱好唱、跳、rap。欢迎通过 GitHub 与我交流。
         </p>
 
         <div class="hero-cta reveal">
-          <a class="btn btn-primary" href="mailto:[改]你的邮箱@example.com">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z"/><path d="m3 7 9 6 9-6"/></svg>
-            <span data-zh="发邮件" data-en="Email me">发邮件</span>
-          </a>
-          <a class="btn btn-ghost" href="https://github.com/[改-你的GitHub用户名]" target="_blank" rel="noopener">
+          <a class="btn btn-primary" href="https://github.com/zhangjianan040519-dotcom" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8Z"/></svg>
             <span>GitHub</span>
-          </a>
-          <a class="btn btn-ghost" href="[改] 你的简历链接.pdf">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M4 20h16"/></svg>
-            <span data-zh="简历" data-en="CV">简历</span>
           </a>
         </div>
       </div>
 
       <div class="hero-photo reveal">
-        <!-- 换成你的照片：把下面这段注释去掉，改成 <img src="assets/photo.jpg" alt="你的名字">
-             建议正方形、不小于 480×480。 -->
-        <div class="avatar" aria-hidden="true"><span>Y</span></div>
+        <!-- 想换成照片：把下面这行换成 <img class="avatar" src="assets/photo.jpg" alt="张佳男"> -->
+        <div class="avatar" aria-hidden="true"><span>张</span></div>
       </div>
 
-    </div>
-
-    <div class="wrap">
-      <ul class="stat-bar reveal">
-        <li><strong>[改] 3</strong><span data-zh="篇发表论文" data-en="Publications">篇发表论文</span></li>
-        <li><strong>[改] 5</strong><span data-zh="年研究经历" data-en="Years of research">年研究经历</span></li>
-        <li><strong>[改] 2</strong><span data-zh="个在研项目" data-en="Ongoing projects">个在研项目</span></li>
-      </ul>
     </div>
   </section>
 
@@ -140,27 +113,26 @@
 
       <div class="about-grid">
         <div class="about-body reveal">
-          <p data-zh="[改] 第一段：你的学术或职业背景。什么时间、在什么地方、学什么、现在在哪。"
-             data-en="[改] Paragraph 1: your background — when, where, what you studied, where you are now.">
-            [改] 第一段：你的学术或职业背景。什么时间、在什么地方、学什么、现在在哪。
+          <p data-zh="我是张佳男，研究方向是期权定价。"
+             data-en="I'm Zhang Jianan, and my research is on option pricing.">
+            我是张佳男，研究方向是期权定价。
           </p>
-          <p data-zh="[改] 第二段：你具体关心的问题、用过的方法、正在推进的工作。写得越具体，越容易遇到同路人。"
-             data-en="[改] Paragraph 2: the questions you care about, the methods you use, what you're working on now. Specifics are what attract collaborators.">
-            [改] 第二段：你具体关心的问题、用过的方法、正在推进的工作。写得越具体，越容易遇到同路人。
+          <p data-zh="期权定价研究的是如何给期权这类金融衍生品定出合理的价格。它既要描述标的资产价格的随机波动，也要回答在给定风险下这个合约值多少钱——经典结果如 Black-Scholes 公式，之后发展出的随机波动率、跳跃扩散等模型，都是为了更贴近真实市场。"
+             data-en="Option pricing is about putting a fair value on derivatives. It means modelling how the underlying asset moves randomly, and answering what the contract is worth under a given risk. The classic result is the Black-Scholes formula; later models with stochastic volatility or jumps were built to match real markets more closely.">
+            期权定价研究的是如何给期权这类金融衍生品定出合理的价格。它既要描述标的资产价格的随机波动，也要回答在给定风险下这个合约值多少钱——经典结果如 Black-Scholes 公式，之后发展出的随机波动率、跳跃扩散等模型，都是为了更贴近真实市场。
           </p>
-          <p data-zh="[改] 第三段（可选）：研究之外的事——教学、开源、写作、爱好。这一节往往最能让人记住你。"
-             data-en="[改] Paragraph 3 (optional): life outside research — teaching, open source, writing, hobbies. This is often the part people remember.">
-            [改] 第三段（可选）：研究之外的事——教学、开源、写作、爱好。这一节往往最能让人记住你。
+          <p data-zh="研究之外，我的爱好是唱、跳、rap。"
+             data-en="Outside of research, I'm into singing, dancing, and rap.">
+            研究之外，我的爱好是唱、跳、rap。
           </p>
         </div>
 
         <aside class="about-facts reveal">
           <h3 data-zh="速览" data-en="At a glance">速览</h3>
           <dl class="facts">
-            <div><dt data-zh="现居" data-en="Based in">现居</dt><dd>[改] 城市</dd></div>
-            <div><dt data-zh="职位" data-en="Position">职位</dt><dd>[改] 职位</dd></div>
-            <div><dt data-zh="领域" data-en="Fields">领域</dt><dd>[改] 领域一、领域二</dd></div>
-            <div><dt data-zh="语言" data-en="Languages">语言</dt><dd>中文、English</dd></div>
+            <div><dt data-zh="研究方向" data-en="Research">研究方向</dt><dd data-zh="期权定价" data-en="Option pricing">期权定价</dd></div>
+            <div><dt data-zh="性别" data-en="Gender">性别</dt><dd data-zh="男" data-en="Male">男</dd></div>
+            <div><dt data-zh="爱好" data-en="Interests">爱好</dt><dd data-zh="唱、跳、rap" data-en="Singing, dancing, rap">唱、跳、rap</dd></div>
           </dl>
         </aside>
       </div>
@@ -173,149 +145,43 @@
       <header class="section-head reveal">
         <span class="section-num">02</span>
         <h2 data-zh="研究兴趣" data-en="Research">研究兴趣</h2>
-        <p class="section-sub reveal" data-zh="[改] 一句话概括你的研究主线。" data-en="[改] One line summarising your research agenda.">[改] 一句话概括你的研究主线。</p>
+        <p class="section-sub reveal" data-zh="目前关注的方向。" data-en="What I work on.">目前关注的方向。</p>
       </header>
 
-      <div class="cards">
+      <div class="cards cards--single">
         <article class="card reveal">
           <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M3 20h18"/><path d="M5 20V9M10 20V4M15 20v-8M20 20V7"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M3 17.5 8.5 11l4 3.8L21 6"/><path d="M21 11V6h-5"/></svg>
           </div>
-          <h3 data-zh="[改] 方向一" data-en="[改] Topic one">[改] 方向一</h3>
-          <p data-zh="[改] 一句话说明这个方向研究什么、为什么重要。" data-en="[改] One line on what this topic studies and why it matters.">[改] 一句话说明这个方向研究什么、为什么重要。</p>
+          <h3 data-zh="期权定价" data-en="Option pricing">期权定价</h3>
+          <p data-zh="研究金融衍生品的定价与风险度量：从 Black-Scholes 框架出发，关注随机波动率、跳跃扩散等更贴近真实市场的模型，以及对应的数值方法与对冲策略。"
+             data-en="Pricing and risk measurement for derivatives: starting from the Black-Scholes framework, looking at stochastic volatility and jump-diffusion models that better match real markets, along with the numerical methods and hedging strategies they need.">
+            研究金融衍生品的定价与风险度量：从 Black-Scholes 框架出发，关注随机波动率、跳跃扩散等更贴近真实市场的模型，以及对应的数值方法与对冲策略。
+          </p>
           <ul class="tags">
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
-          </ul>
-        </article>
-
-        <article class="card reveal">
-          <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
-          </div>
-          <h3 data-zh="[改] 方向二" data-en="[改] Topic two">[改] 方向二</h3>
-          <p data-zh="[改] 一句话说明这个方向研究什么、为什么重要。" data-en="[改] One line on what this topic studies and why it matters.">[改] 一句话说明这个方向研究什么、为什么重要。</p>
-          <ul class="tags">
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
-          </ul>
-        </article>
-
-        <article class="card reveal">
-          <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 15 3.5-4 3 2.5L19 7"/></svg>
-          </div>
-          <h3 data-zh="[改] 方向三" data-en="[改] Topic three">[改] 方向三</h3>
-          <p data-zh="[改] 一句话说明这个方向研究什么、为什么重要。" data-en="[改] One line on what this topic studies and why it matters.">[改] 一句话说明这个方向研究什么、为什么重要。</p>
-          <ul class="tags">
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
-            <li data-zh="[改] 关键词" data-en="[改] keyword">[改] 关键词</li>
+            <li data-zh="衍生品定价" data-en="Derivatives pricing">衍生品定价</li>
+            <li data-zh="随机波动率" data-en="Stochastic volatility">随机波动率</li>
+            <li data-zh="数值方法" data-en="Numerical methods">数值方法</li>
           </ul>
         </article>
       </div>
-
-      <!-- 技能：不需要就整段删掉 -->
-      <div class="skills reveal">
-        <h3 data-zh="工具与技术" data-en="Tools &amp; skills">工具与技术</h3>
-        <div class="skill-groups">
-          <div class="skill-group">
-            <h4 data-zh="数据分析" data-en="Data analysis">数据分析</h4>
-            <ul class="tags"><li>Python</li><li>R</li><li>Stata</li><li>SQL</li></ul>
-          </div>
-          <div class="skill-group">
-            <h4 data-zh="写作与排版" data-en="Writing &amp; typesetting">写作与排版</h4>
-            <ul class="tags"><li>LaTeX</li><li>Markdown</li><li>Word</li></ul>
-          </div>
-          <div class="skill-group">
-            <h4 data-zh="其他" data-en="Other">其他</h4>
-            <ul class="tags"><li>Git</li><li>Docker</li><li>HTML/CSS</li></ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================= 论文 ============================= -->
-  <section id="pubs" class="section">
-    <div class="wrap">
-      <header class="section-head reveal">
-        <span class="section-num">03</span>
-        <h2 data-zh="论文与成果" data-en="Publications">论文与成果</h2>
-        <p class="section-sub reveal" data-zh="[改] 倒序排列，最新的放最上面。" data-en="[改] Newest first.">[改] 倒序排列，最新的放最上面。</p>
-      </header>
-
-      <ol class="pub-list">
-        <li class="pub reveal">
-          <span class="pub-year">2026</span>
-          <div class="pub-body">
-            <h3 class="pub-title">[改] 论文标题写在这里</h3>
-            <p class="pub-meta"><em>[改] 期刊或会议名称</em> · <span data-zh="与 XXX 合作" data-en="with XXX">与 XXX 合作</span></p>
-            <p class="pub-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-              <a href="#" target="_blank" rel="noopener">DOI</a>
-              <a href="#" target="_blank" rel="noopener">Code</a>
-            </p>
-          </div>
-        </li>
-
-        <li class="pub reveal">
-          <span class="pub-year">2025</span>
-          <div class="pub-body">
-            <h3 class="pub-title">[改] 第二篇论文标题</h3>
-            <p class="pub-meta"><em>[改] 期刊或会议名称</em> · <span data-zh="工作论文" data-en="Working paper">工作论文</span></p>
-            <p class="pub-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-              <a href="#" target="_blank" rel="noopener">Slides</a>
-            </p>
-          </div>
-        </li>
-
-        <li class="pub reveal">
-          <span class="pub-year">2024</span>
-          <div class="pub-body">
-            <h3 class="pub-title">[改] 第三篇论文标题</h3>
-            <p class="pub-meta"><em>[改] 期刊或会议名称</em></p>
-            <p class="pub-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-            </p>
-          </div>
-        </li>
-      </ol>
     </div>
   </section>
 
   <!-- ============================= 联系 ============================= -->
-  <section id="contact" class="section section-alt">
+  <section id="contact" class="section">
     <div class="wrap">
       <header class="section-head reveal">
-        <span class="section-num">04</span>
+        <span class="section-num">03</span>
         <h2 data-zh="联系我" data-en="Get in touch">联系我</h2>
-        <p class="section-sub reveal" data-zh="[改] 欢迎就合作、提问或任何想法联系我。" data-en="[改] Happy to hear about collaborations, questions, or ideas.">[改] 欢迎就合作、提问或任何想法联系我。</p>
+        <p class="section-sub reveal" data-zh="有想法或问题，欢迎到 GitHub 找我。" data-en="Ideas or questions — find me on GitHub.">有想法或问题，欢迎到 GitHub 找我。</p>
       </header>
 
-      <div class="contact-grid">
-        <a class="contact-card reveal" href="mailto:[改]你的邮箱@example.com">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18v11H3z"/><path d="m3 7 9 6 9-6"/></svg>
-          <span class="contact-label" data-zh="邮箱" data-en="Email">邮箱</span>
-          <span class="contact-value">[改]你的邮箱@example.com</span>
-        </a>
-
-        <a class="contact-card reveal" href="https://github.com/[改-你的GitHub用户名]" target="_blank" rel="noopener">
+      <div class="contact-grid contact-grid--single">
+        <a class="contact-card reveal" href="https://github.com/zhangjianan040519-dotcom" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8Z"/></svg>
           <span class="contact-label">GitHub</span>
-          <span class="contact-value">@[改-你的GitHub用户名]</span>
-        </a>
-
-        <a class="contact-card reveal" href="[改] 你的谷歌学术链接">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.5 8.5 12 14l10.5-5.5L12 3Z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
-          <span class="contact-label" data-zh="谷歌学术" data-en="Google Scholar">谷歌学术</span>
-          <span class="contact-value">[改] Scholar 主页</span>
-        </a>
-
-        <a class="contact-card reveal" href="[改] 你的 ORCID 或 LinkedIn 链接">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8.2v7.6"/><path d="M8.8 10.5h1.6M8.8 15.8h1.6"/><path d="M13.2 10.5h2.2a2 2 0 0 1 2 2v3.3"/></svg>
-          <span class="contact-label">ORCID</span>
-          <span class="contact-value">[改] 0000-0000-0000-0000</span>
+          <span class="contact-value">@zhangjianan040519-dotcom</span>
         </a>
       </div>
     </div>
@@ -325,7 +191,7 @@
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <p>© <span id="year">2026</span> [改] 你的名字</p>
+    <p>© <span id="year">2026</span> 张佳男</p>
     <p class="footer-note" data-zh="用 HTML 和 CSS 手写，托管在 GitHub Pages。" data-en="Hand-written HTML and CSS, hosted on GitHub Pages.">用 HTML 和 CSS 手写，托管在 GitHub Pages。</p>
   </div>
 </footer>
